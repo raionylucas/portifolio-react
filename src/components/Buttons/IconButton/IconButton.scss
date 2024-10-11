@@ -1,0 +1,18 @@
+.icon-button {
+  display: flex;
+  gap: 16px;
+
+  .social-button {
+    background-color: var(--second-blue);
+    padding: 1.2rem;
+    border-radius: 4px;
+    display: flex;
+    transition: all 0.3s ease;
+
+    font-size: 2.4rem;
+
+    &:hover {
+      background-color: var(--primary-rose);
+    }
+  }
+}

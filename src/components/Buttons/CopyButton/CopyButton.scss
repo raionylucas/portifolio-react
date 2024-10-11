@@ -1,0 +1,36 @@
+@import "../../../styles/mixins.scss";
+
+.copy-button {
+  padding: 1.2rem 3.2rem;
+  background-color: transparent;
+  border: 1px solid var(--primary-rose);
+  border-radius: 4px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--primary-rose);
+
+  span {
+    padding: 1.2rem 3.2rem;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: var(--primary-rose);
+    color: var(--primary-white);
+    position: absolute;
+    transition: all 0.3s ease;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  @include respond(tab-port) {
+    width: 100%;
+  }
+}
