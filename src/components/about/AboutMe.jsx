@@ -7,7 +7,7 @@ function AboutMe() {
       <div className='about__left'>
         <h2>Sobre mim</h2>
         <p>
-          Meu nome é Lucas Raiony, tenho 23 anos e sou desenvolvedor web,
+          Meu nome é Lucas Raiony, sou desenvolvedor web,
           formado em Sistemas para Internet pelo Instituto Federal de Brasília.
           Desde minha formação em 2019, decidi focar meus estudos e minha
           carreira no desenvolvimento de aplicações para a web,
